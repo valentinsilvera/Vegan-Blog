@@ -1,0 +1,15 @@
+#sidenav-button {
+  background-image: url(../images/menu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 2em;
+  width: 2em;
+}
+
+#logo {
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 2em;
+  width: 2em;
+}
