@@ -2,14 +2,22 @@
   background-image: url(../images/menu.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 2em;
-  width: 2em;
+  height: 22px;
+  width: 30px;
 }
 
 #logo {
   background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 2em;
-  width: 2em;
+  height: 22px;
+  width: 30px;
+}
+
+#title {
+  background-image: url(../images/title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 45px;
 }

@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -99;
@@ -12,24 +12,44 @@ a {
   color: white;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 0 auto;
-  height: 3em;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+.container {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 42px 200vh 84px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
-#navbar-button {
+header {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100vw;
 }
 
 #main {
-  width: 100vw;
-  height: 200vh;
-  background-color: white;
+  grid-area: 2 / 1 / 3 / 2;
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 100vh 100vh;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 0 auto;
+}
+
+#promoted {
+  background-image: url(../images/burger.png);
+  background-size: contain;
+}
+
+#promoted a {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  padding-top: 80vh;
 }
 
 #footer {
@@ -40,16 +60,16 @@ header {
 }
 
 #newsletter-form {
+  grid-area: 3 / 1 / 4 / 2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: orangered;
   padding: 1em;
-  width: 100vw;
 }
 
-newsletter-form button {
+#newsletter-form button {
   background-color: rgba(0, 0, 0, 0);
 }
 
