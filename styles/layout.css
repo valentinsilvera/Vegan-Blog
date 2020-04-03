@@ -42,7 +42,9 @@ header {
 
 #promoted {
   background-image: url(../images/burger.png);
+  height: 100vh;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #promoted a {
