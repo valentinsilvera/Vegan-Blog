@@ -9,11 +9,26 @@
 header {
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
-  justify-content: space-around;
   top: 0;
   position: -webkit-sticky;
   position: sticky;
   width: 100vw;
+}
+
+header #logo {
+  margin-left: 12px;
+  justify-self: flex-start;
+}
+
+header #title {
+  justify-self: center;
+  margin-left: 26vw;
+  margin-right: 26vw;
+}
+
+header #sidenav-button {
+  justify-self: flex-end;
+  margin-right: 12px;
 }
 
 #main {
