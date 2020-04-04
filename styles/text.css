@@ -5,22 +5,24 @@
 } */
 
 #promoted a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 a {
-  text-decoration: none;
-  font-family: abadi, sans-serif;
-  font-weight: 700;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   color: white;
+  text-decoration: none;
 }
 
 #newsletter-form,
 #newsletter-form input,
 #about-footer {
-  font-family: abadi, sans-serif;
-  font-weight: 700;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   color: white;

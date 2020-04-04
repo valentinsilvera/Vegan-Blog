@@ -1,41 +1,16 @@
-.container {
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 50px 200vh 230px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
 header {
-  grid-area: 1 / 1 / 2 / 2;
   display: flex;
+  justify-content: space-around;
   top: 0;
   position: -webkit-sticky;
   position: sticky;
   width: 100vw;
 }
 
-header #logo {
-  margin-left: 12px;
-  justify-self: flex-start;
-}
-
-header #title {
-  justify-self: center;
-  margin-left: 26vw;
-  margin-right: 26vw;
-}
-
-header #sidenav-button {
-  justify-self: flex-end;
-  margin-right: 12px;
-}
-
 #main {
-  grid-area: 2 / 1 / 3 / 2;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 100vh 100vh;
+  grid-template-rows: 0px 100vh 100vh;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   padding: 0;
@@ -46,6 +21,15 @@ header #sidenav-button {
   left: 50%;
   margin-left: -50px;
   padding-top: 80vh;
+}
+
+#title {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #articles {
@@ -62,7 +46,6 @@ header #sidenav-button {
 }
 
 #newsletter-form {
-  grid-area: 3 / 1 / 4 / 2;
   display: flex;
   flex-direction: column;
   align-items: center;

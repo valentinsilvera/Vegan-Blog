@@ -7,46 +7,45 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <a href="./index.html"><figure id="logo"></figure></a>
-        <a href="./index.html"><figure id="title"></figure></a>
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-        <span id="navbar-button" onclick="openNav()"
-          ><figure id="sidenav-button"></figure
-        ></span>
-      </header>
+    <header>
+      <a href="./index.html"><figure id="logo"></figure></a>
 
-      <!-- Main Content -->
-
-      <div id="main">
-        <div id="promoted">
-          <a href="#">READ MORE</a>
-        </div>
-        <div id="articles"></div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
       </div>
+      <span id="navbar-button" onclick="openNav()"
+        ><figure id="sidenav-button"></figure
+      ></span>
+    </header>
 
-      <footer id="footer">
-        <form id="newsletter-form" action="submit">
-          <p>Sign up for my newsletter</p>
-          <input name="email" type="text" placeholder="your email here" />
-          <button>SUBSCRIBE</button>
-        </form>
-        <footer id="about-footer">
-          <a href="#"> ABOUT</a>
-          <a href="#">LEGAL</a>
-          <a href="#">CONTACT</a>
-        </footer>
-      </footer>
+    <!-- Main Content -->
+
+    <div id="main">
+      <a href="./index.html"><figure id="title"></figure></a>
+      <div id="promoted">
+        <a href="#">READ MORE</a>
+      </div>
+      <div id="articles"></div>
     </div>
+
+    <footer id="footer">
+      <form id="newsletter-form" action="submit">
+        <p>Sign up for my newsletter</p>
+        <input name="email" type="text" placeholder="your email here" />
+        <button>SUBSCRIBE</button>
+      </form>
+      <footer id="about-footer">
+        <a href="#"> ABOUT</a>
+        <a href="#">LEGAL</a>
+        <a href="#">CONTACT</a>
+      </footer>
+    </footer>
 
     <script src="./app.js"></script>
   </body>
