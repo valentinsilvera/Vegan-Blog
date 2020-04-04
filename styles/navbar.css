@@ -22,7 +22,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 10vh;
-  width: 50vw;
+  width: 70vw;
   margin: 0em;
   padding: 0em;
 }
@@ -38,14 +38,16 @@
 
 #sidenav-links a {
   background-color: #000;
-  padding: 20px;
+  font-size: 2.5em;
+  padding: 15px;
   color: #dc6ca4;
-  width: 50vw;
+  width: 70vw;
   text-align: center;
 }
 
 #sidenav-links a:hover {
   background-color: #fff;
+  transition: none;
 }
 
 #sidenav-social {
@@ -70,8 +72,9 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+#sidenav-social a:hover {
   color: #fff;
+  transition: none;
 }
 
 /* Position and style the close button (top right corner) */
@@ -79,16 +82,19 @@
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 50px;
+  font-weight: 400;
   margin-left: 50px;
+  color: #000;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 570px) {
   .sidenav {
     padding-top: 15px;
   }
-  .sidenav a {
-    font-size: 18px;
+  #sidenav-links a {
+    font-size: 2em;
+    padding: 10px;
   }
 }
