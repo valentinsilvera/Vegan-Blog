@@ -34,7 +34,7 @@ header {
 #title {
   position: absolute;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -30px;
   top: 0;
   white-space: nowrap;
   overflow: hidden;
