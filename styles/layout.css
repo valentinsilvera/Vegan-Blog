@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 50px 200vh 190px;
+  grid-template-rows: 50px 200vh 230px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -62,6 +62,7 @@ header {
   justify-content: space-around;
   background-color: #dc6ca4;
   width: 100vw;
+  padding-top: 20px;
 }
 
 #newsletter-form input {
@@ -69,6 +70,7 @@ header {
   width: 50%;
   background: none;
   border: none;
+  border-bottom: white 2px solid;
 }
 
 #newsletter-form button {
@@ -76,6 +78,7 @@ header {
   width: 50%;
   margin: 16px;
   border: 0;
+  padding-bottom: 20px;
 }
 
 #about-footer {
