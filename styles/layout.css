@@ -26,14 +26,6 @@ header {
   padding: 0;
 }
 
-#promoted {
-  background-image: url(../images/burger.png);
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 #promoted a {
   position: absolute;
   left: 50%;
