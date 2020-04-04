@@ -4,21 +4,14 @@ header {
   position: -webkit-sticky;
   position: sticky;
   width: 100vw;
+  justify-content: space-between;
 }
 
-header #logo {
+#logo {
   margin-left: 12px;
-  justify-self: flex-start;
 }
 
-header #title {
-  justify-self: center;
-  margin-left: 26vw;
-  margin-right: 26vw;
-}
-
-header #sidenav-button {
-  justify-self: flex-end;
+#sidenav-button {
   margin-right: 12px;
 }
 
@@ -55,7 +48,6 @@ header #sidenav-button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100vw;
   padding: 0;
 }
