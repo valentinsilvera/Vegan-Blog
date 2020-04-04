@@ -1,21 +1,7 @@
-body {
-  margin: 0 auto;
-  background-image: url(../images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -99;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .container {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 50px 200vh 84px;
+  grid-template-rows: 50px 200vh 190px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -73,14 +59,23 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: orangered;
-  padding: 0;
+  justify-content: space-around;
+  background-color: #dc6ca4;
   width: 100vw;
 }
 
+#newsletter-form input {
+  height: 1.5em;
+  width: 50%;
+  background: none;
+  border: none;
+}
+
 #newsletter-form button {
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  width: 50%;
+  margin: 16px;
+  border: 0;
 }
 
 #about-footer {

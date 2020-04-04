@@ -1,3 +1,13 @@
+body {
+  margin: 0 auto;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -99;
+  overflow-x: hidden;
+}
+
 #sidenav-button {
   background-image: url(../images/menu.png);
   background-size: contain;
