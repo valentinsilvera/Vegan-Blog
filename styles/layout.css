@@ -4,6 +4,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   width: 100vw;
+  align-content: center;
   justify-content: space-between;
 }
 
